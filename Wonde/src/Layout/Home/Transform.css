@@ -1,0 +1,76 @@
+.transform{
+    background-color: white;
+    padding-bottom: 50px;
+    color: #27325E;;
+}
+.transform .first{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.transform .first article h2{
+    font-size: 40px;
+    
+    
+}
+.transform .first article p{
+    font-size: 17px;
+    width: 200px;
+    
+}
+.transform .second article p{
+    font-size: 45px;
+    line-height: 1.17;
+    
+}
+.transform .second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.transform .second .cardd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    padding: 50px;
+}
+
+.transform .second .cardd figure img{
+    height: 250px ;
+    width: 340px;
+    border-radius: 10px;
+}
+.transform .second .cardd figure figcaption{
+    padding: 10px;
+}
+.transform .second .cardd figure figcaption h2{
+    text-decoration: double;
+}
+.transform .second .cardd figure figcaption p{
+    font-size: 19px;
+}
+.transform .second .cardd figure figcaption button{
+   border: 2px solid #27325E;
+   border-radius: 10px;
+   padding: 10px;
+   color: #27325E ;
+   text-decoration: double;
+   background-color: white;
+   
+}
+.transform .second .cardd figure figcaption button:hover{
+    cursor: pointer;
+    background-color: #27325E;
+    color: white;
+
+}

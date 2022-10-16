@@ -1,0 +1,71 @@
+.controlSchool{
+    background-color: rgb(24, 24, 69);
+    color: white;
+    padding: 70px 40px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    /* align-items: center; */
+}
+.controlSchool h2{
+    text-align: left;
+    margin-bottom: 60px;
+    font-size: 40px;
+    width: 550px;
+    padding-left: 19px;
+}
+.controlSchool div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 20px 50px; */
+    /* border: 1px solid white; */
+    
+}
+.controlSchool div .cardd{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between; 
+    align-items: center;
+    /* width: 1000px; */
+    background-color: rgb(24, 24, 69);
+    
+    padding: 0px;
+    text-align: left;
+    
+}
+.controlSchool div .cardd h3 , .controlSchool div .cardd p{
+    
+    text-align: left;
+    
+}
+.controlSchool div .cardd img{
+   width: 550px;
+   height: 550px; 
+}
+.controlSchool div .cardd .para{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between; 
+    align-items: flex-start; 
+    padding-left: 19px;
+}
+.controlSchool div .cardd button
+{
+   border: 2px solid white;
+   border-radius: 10px;
+   padding: 10px;
+   color: white ;
+   text-decoration: double;
+   background-color:rgb(24, 24, 69);
+   
+}
+
+.controlSchool div .cardd button:hover{
+    cursor: pointer;
+    background-color:white;
+    color:  rgb(24, 24, 69);
+    border: 1px solid rgb(24, 24, 69);
+    
+}
